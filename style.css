@@ -1,0 +1,40 @@
+body{
+    background: pink;
+    margin: 0;
+}
+/* 
+.newnewlayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first{
+    flex-shrink: 0.5;
+}
+.newnewlayout div{
+    background: red;
+    height: 200px;
+    width: 200px;
+    /* width: 200px; */
+    /* flex-basis: 50px; */
+    /* border: 2px solid black;
+    margin: 10px;
+
+} */
+
+#parent{
+    background-color: red;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.child{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
